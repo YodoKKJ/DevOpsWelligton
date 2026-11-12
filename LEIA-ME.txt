@@ -15,6 +15,7 @@ TESTE LOCAL (XAMPP)
 1. Copie a pasta bistro_devops para C:\xampp\htdocs\
 2. Inicie Apache e MySQL.
 3. Importe database.sql pelo phpMyAdmin.
+   Se usar o cliente mysql no terminal, passe --default-character-set=utf8mb4.
 4. Confira config/database.php (padrão XAMPP: localhost, bistro_devops, root, senha vazia).
 5. Abra http://localhost/bistro_devops/
 6. Para gerenciar o cardápio: http://localhost/bistro_devops/produtos.php
